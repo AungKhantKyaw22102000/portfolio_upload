@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    background-color: #201C23;
+}
+
+.nav {
+    background: rgba(10, 10, 10, .35);
+    height: 10%;
+    padding: 3px 25px;
+}
+
+.portfolio {
+    color: #61DAFB;
+    font-weight: 900;
+}
+
+.about{
+    display: flex;
+}
+
+.summary-head {
+    color: #61DAFB;
+    text-align: center;
+    font-weight: 700;
+    margin-left: 2%;
+}
+
+.summary-text {
+    width: 47%;
+    margin-left: 3%;
+    font-size: 1rem;
+    text-align: justify;
+    color: #61DAFB;
+}
+
+.me {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.myphoto {
+    width: 90%;
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+@media (max-width: 500px){
+    .summary .about{
+        flex-direction: column;
+        align-items: center;
+    }
+    .summary-text{
+        width: 80%;
+    }
+    .me{
+        width: 70%;
+    }
+}
+
+.exp-head {
+    margin-left: 2%;
+    text-align: center;
+    color: #61DAFB;
+    font-weight: 700;
+}
+
+.exp-body {
+    margin-left: 3%;
+    color: #61DAFB;
+}
+
+ .exp-body > li::marker {
+    font-size: 1.4rem;
+    color: #61DAFB;
+}
+
+.exp-p {
+    color: #61DAFB;
+    font-weight: 700;
+}
+
+.target {
+    margin-left: 3%;
+    color: #61DAFB;
+}
+
+.project-head {
+    text-align: center;
+    margin-left: 2%;
+    color: #61DAFB;
+    font-weight: 700;
+}
+
+.project-body {
+    display: flex;
+}
+
+.project-text {
+    width: 55%;
+    margin-left: 3%;
+    text-align: justify;
+    color: #61DAFB;
+}
+
+.project-p {
+    font-size: 1rem;
+}
+
+.eancrotv{
+    font-weight: 700;
+}
+
+.twitch{
+    font-weight: 700;
+}
+
+.eancro-btn {
+    width: 150px;
+    height: 40px;
+    border-radius: 1rem;
+}
+
+.eancro-btn:hover {
+    background-color: darkgoldenrod;
+}
+
+.project-logo {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+}
+
+.eancro-logo {
+    width: 20%;
+}
+
+@media (max-width: 500px){
+    .project .project-body{
+        flex-direction: column;
+        align-items: center;
+    }
+    .project-text{
+        width: 80%;
+    }
+    .eancro-logo{
+        width: 80%;
+    }
+}
+
+.skill-head {
+    text-align: center;
+    margin-left: 2%;
+    color: #61DAFB;
+    font-weight: 700;
+}
+
+.skill-body {
+    display: flex;
+}
+
+.objectives {
+    width: 47%;
+}
+
+.aims {
+    color: #61DAFB;
+    margin-left: 3%;
+}
+
+.aims > li::marker {
+    font-size: 1.4rem;
+    color: #61DAFB;
+}
+
+.skills {
+    background: rgba(10, 10, 10, .35);
+    width: 40%;
+    max-width: 40%;
+    margin-left: 3%;
+    border-radius: 1rem;
+}
+
+.specialized {
+    color: #61DAFB;
+    font-weight: 800;
+}
+
+.specialized-p > li {
+    color: #61DAFB;
+}
+
+.specialized-p > li::marker {
+    font-size: 1.4rem;
+    color: #61DAFB;
+}
+
+@media (max-width: 500px){
+    .skillmain .skill-body{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.certificate-head {
+    text-align: center;
+    margin-left: 2%;
+    color: #61DAFB;
+    font-weight: 700;
+}
+
+.certificate-body {
+    width: 47%;
+    margin-left: 1%;
+    text-align: justify;
+    color: #61DAFB;
+}
+
+.certificate-p > li::marker {
+    font-size: 1.4rem;
+    color: #61DAFB;
+}
+
+.certificate-btn {
+    margin-left: 3%;
+    width: 150px;
+    height: 40px;
+    border-radius: 1rem;
+}
+
+.certificate-btn:hover {
+    background-color: darkgoldenrod;
+}
+
+@media (max-width: 500px){
+    .certificate-head .certificate-body{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.contact-head {
+    text-align: center;
+    margin-left: 2%;
+    color: #61DAFB;
+    font-weight: 700;
+}
+
+.contact-body {
+    width: 47%;
+    margin-left: 1%;
+    text-align: justify;
+    color: #61DAFB;
+}
+
+@media (max-width: 500px){
+    .contact .contact-p{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.contact-body li::marker {
+    font-size: 1.4rem;
+    color: #61DAFB;
+}
+
+.mail {
+    width: 25px;
+    border-radius: 5px;
+}
+
+.phone {
+    width: 25px;
+    border-radius: 5px;
+}
+
+.location {
+    width: 25px;
+    border-radius: 5px;
+}
+
+.footer {
+    background: rgba(10, 10, 10, .35);
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.facebook {
+    margin: 10px;
+    width: 25px;
+    border-radius: 5px;
+}
+
+.github {
+    margin: 10px;
+    width: 25px;
+    border-radius: 5px;
+}
+
+.linkin {
+    margin: 10px;
+    width: 25px;
+    border-radius: 5px;
+}
